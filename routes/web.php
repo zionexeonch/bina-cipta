@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StorageController;
 use App\Http\Controllers\AuthController;
 
@@ -22,6 +23,4 @@ Route::resource('admin-storage', StorageController::class);
 Route::get('/admin-dashboard', [AdminController::class, 'index']);
 Route::get('/login', [AuthController::class, 'index']);
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
