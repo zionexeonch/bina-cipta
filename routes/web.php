@@ -24,3 +24,7 @@ Route::get('/admin-dashboard', [AdminController::class, 'index']);
 Route::get('/login', [AuthController::class, 'index']);
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/produk', [HomeController::class, 'produk']);
+Route::get('/faq', [HomeController::class, 'faq']);
+Route::get('/tentang-kami', [HomeController::class, 'tentang_kami']);
+Route::get('/kontak-kami', [HomeController::class, 'kontak_kami']);
