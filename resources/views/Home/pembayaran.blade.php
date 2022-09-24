@@ -52,21 +52,33 @@
 @endsection
 @section('content2')
 <div class="container mx-auto my-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:mx-0 mx-4">
+        <div class="max-w-sm rounded-lg shadow-md">
 
-    <h1
-        class="mb-4 text-center text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-4xl dark:text-white">
-        Tentang Kami
-    </h1>
-    <p
-        class="mb-6 text-lg mx-4 md:mx-0 text-center md:text-left font-normal text-black lg:text-xl sm:px-16 xl:px-48 dark:text-white">
-        Bina Cipta adalah
-        toko rambut palsu yang berbasis di Purbalingga, Jawa Tengah. Bina Cipta adalah toko rambut palsu terkemuka di
-        Purbalingga yang
-        tidak melambung begitu saja. Banyak alur yang dilalui dengan segala rintangan yang ada. Bina Cipta hadir untuk
-        memenuhi kebutuhan masyarakat dengan produknya yang beragam. Bukan hanya tersedia rambut palsu/wig saja tetapi
-        ada produk
-        lain yang diperjual belikan yakni ikat rambut, bulu mata palsu, Aksesoris rambut dan lainnya.
-    </p>
+            <img class="rounded-t-lg" src="/img/bca.png" alt="">
 
+        </div>
+        <div class="max-w-sm rounded-lg shadow-md">
+
+            <img class="rounded-t-lg" src="/img/bri.png" alt="">
+
+        </div>
+        <div class="max-w-sm rounded-lg shadow-md">
+
+            <img class="rounded-t-lg" src="/img/bni.png" alt="">
+
+        </div>
+        <div class="max-w-sm rounded-lg shadow-md">
+
+            <img class="rounded-t-lg" src="/img/dana.png" alt="">
+
+        </div>
+        <div class="max-w-sm rounded-lg shadow-md">
+
+            <img class="rounded-t-lg" src="/img/mandiri.png" alt="">
+
+        </div>
+    </div>
 </div>
+
 @endsection

@@ -9,31 +9,43 @@ class HomeController extends Controller
     public function index()
     {
         return view('Home.index', [
-            'title' => 'Welcome to Bina Cipta',
+            'title' => 'Beranda | BINA CIPTA',
         ]);
     }
     public function produk()
     {
         return view('Home.produk', [
-            'title' => 'Produk',
+            'title' => 'Produk | BINA CIPTA',
         ]);
     }
     public function faq()
     {
         return view('Home.faq', [
-            'title' => 'FAQ',
+            'title' => 'FAQ | BINA CIPTA',
         ]);
     }
     public function tentang_kami()
     {
         return view('Home.tentang-kami', [
-            'title' => 'Tentang Kami',
+            'title' => 'Tentang Kami | BINA CIPTA',
         ]);
     }
     public function kontak_kami()
     {
         return view('Home.kontak-kami', [
-            'title' => 'Kontak Kami',
+            'title' => 'Kontak Kami | BINA CIPTA',
+        ]);
+    }
+    public function pembayaran()
+    {
+        return view('Home.pembayaran', [
+            'title' => 'Via Pembayaran | BINA CIPTA',
+        ]);
+    }
+    public function kebijakan()
+    {
+        return view('Home.kebijakan', [
+            'title' => 'Kebijakan Pribadi | BINA CIPTA',
         ]);
     }
 }

@@ -5,12 +5,12 @@
             <span class="self-center md:text-xl md:font-bold text-sm font-bold whitespace-nowrap dark:text-white">BINA
                 CIPTA</span>
         </a>
-        <div class="flex items-center ml-4">
-            <a href="tel:085875015516"
+        <div class="flex items-center ml-4 ">
+            {{-- <a href="tel:085875015516"
                 class="mr-3 md:mr-4 text-sm font-bold md:text-base md:font-bold text-gray-500 dark:text-white hover:text-red-600">(085)
-                875-015-516</a>
+                875-015-516</a> --}}
             <a href="#"
-                class="md:ml-0text-sm font-bold md:text-base md:font-bold text-blue-600 dark:hover:text-blue-300 dark:text-blue-500 hover:text-blue-500">Login</a>
+                class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm md:text-base px-4 md:px-6 py-2.5 text-center mr-2 mb-2">Login</a>
         </div>
     </div>
 </nav>
