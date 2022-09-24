@@ -48,4 +48,10 @@ class HomeController extends Controller
             'title' => 'Kebijakan Pribadi | BINA CIPTA',
         ]);
     }
+    public function syarat()
+    {
+        return view('Home.syarat', [
+            'title' => 'Syarat Ketentuan | BINA CIPTA',
+        ]);
+    }
 }

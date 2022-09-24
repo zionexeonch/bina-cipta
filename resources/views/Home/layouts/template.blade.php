@@ -75,7 +75,8 @@
                                     Pribadi</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-red-600 dark:hover:text-red-500">Syarat Kondisi</a>
+                                <a href="/syarat" class="hover:text-red-600 dark:hover:text-red-500">Syarat
+                                    Ketentuan</a>
                             </li>
                         </ul>
                     </div>
