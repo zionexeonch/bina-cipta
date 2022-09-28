@@ -31,3 +31,5 @@ Route::get('/kontak-kami', [HomeController::class, 'kontak_kami']);
 Route::get('/pembayaran', [HomeController::class, 'pembayaran']);
 Route::get('/kebijakan', [HomeController::class, 'kebijakan']);
 Route::get('/syarat', [HomeController::class, 'syarat']);
+Route::get('/detail', [HomeController::class, 'detail']);
+Route::get('/kategori', [HomeController::class, 'kategori']);

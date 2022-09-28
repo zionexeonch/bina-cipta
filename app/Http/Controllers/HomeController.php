@@ -54,4 +54,16 @@ class HomeController extends Controller
             'title' => 'Syarat Ketentuan | BINA CIPTA',
         ]);
     }
+    public function detail()
+    {
+        return view('Home.detail', [
+            'title' => 'Detail Produk | BINA CIPTA',
+        ]);
+    }
+    public function kategori()
+    {
+        return view('Home.kategori', [
+            'title' => 'Slug Produk | BINA CIPTA',
+        ]);
+    }
 }

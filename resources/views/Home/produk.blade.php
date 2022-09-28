@@ -71,18 +71,46 @@
         </ul>
     </div>
     <div id="myTabContent" class="mx-4 md:mx-0">
-        <div class="p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="all" role="tabpanel" aria-labelledby="all-tab">
-            <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
-                    class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>.
-                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
-                classes to control the content visibility and styling.</p>
+        <div class="p-4" id="all" role="tabpanel" aria-labelledby="all-tab">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+
+                    <img class="p-8 rounded-t-lg" src="/docs/images/products/apple-watch.png" alt="product image" />
+
+                    <div class="px-5 pb-5">
+
+                        <h5 class="md:pb-4 pb-3 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                            Apple Watch
+                            Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+
+                        <div class="flex justify-between items-center">
+                            <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                            <a href="/detail"
+                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Detail Produk
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="kategori" role="tabpanel"
-            aria-labelledby="kategori-tab">
-            <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
-                    class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>.
-                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
-                classes to control the content visibility and styling.</p>
+        <div class="hidden p-4 rounded-lg" id="kategori" role="tabpanel" aria-labelledby="kategori-tab">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div
+                    class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-300 hover:scale-110">
+                    <a href="/kategori">
+                        <img class="rounded-t-lg" src="/img/dana.png" alt="Dana">
+
+                        <div class="p-5">
+                            <span>
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                    Testing Hover Card Kategori
+                                </h5>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
