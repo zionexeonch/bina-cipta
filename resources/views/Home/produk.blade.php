@@ -75,13 +75,12 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
 
-                    <img class="p-8 rounded-t-lg" src="/docs/images/products/apple-watch.png" alt="product image" />
+                    <img class="p-8 rounded-t-lg" src="img/bootstrap.png" alt="product image" />
 
                     <div class="px-5 pb-5">
 
                         <h5 class="md:pb-4 pb-3 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                            Apple Watch
-                            Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+                            Rambut 8cm</h5>
 
                         <div class="flex justify-between items-center">
                             <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
@@ -104,7 +103,7 @@
                         <div class="p-5">
                             <span>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                    Testing Hover Card Kategori
+                                    Rambut 8cm
                                 </h5>
                             </span>
                         </div>
